@@ -1,0 +1,513 @@
+a:focus,a:visited,a:hover{
+	color:#262626
+}
+.flexbox {
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.flex {
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.flex-culomn{
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	padding:0 .34rem;
+}
+.shadow_header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	padding:0 .34rem;
+	box-shadow:0px 6px 6px 0px rgba(4,163,254,0.12);
+}
+.shadow_header>h4,.header>h4{
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size:.32rem;
+	font-weight: 400;
+	line-height: 1rem;
+	text-align: center;
+}
+.fix-header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	left: 0;
+}
+.top{
+	padding-bottom: .64rem;
+	position: relative;
+	background-image:linear-gradient(-45deg,rgba(4,163,254,1),rgba(52,220,255,1));
+}
+.my_message_top{
+	height: 2.7rem;
+	padding: 0 .38rem;
+	color:#fff;
+	font-size:.28rem;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.head_img{
+	width: 1.08rem;
+	border-radius:50%;
+}
+.name_aside{
+	margin-left: .36rem;
+}
+.nickname{
+	margin-bottom: .12rem;
+}
+.mynum{
+	font-size: .24rem;
+}
+.my_currency{
+	background-color:rgba(0,0,0,.1);
+	padding:.12rem 0 ;
+	position: absolute;
+	bottom:0;
+	color: #fff;
+	font-size:.24rem;
+	width: 100%;
+}
+.spe_num{
+	font-size: .28rem;
+}
+.my_currency>div{
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: center;
+}
+.my_order_li{
+	padding:.32rem;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	font-size:.28rem;
+	color:#262626;
+}
+.seek_my_order{
+	color:#909090
+}
+.seek_my_order>span{
+	margin-left: .15rem;
+}
+.devide{
+	height:.12rem;
+	background-color: #f7f7f7;
+}
+.fund_list_box{
+	padding:0 .32rem;
+}
+.fund-list>li{
+	padding: .24rem 0;
+	font-size:0.26rem;
+	border-bottom:1px solid #e6e6e6
+}
+.list_cell{
+	width: 1.76rem;
+}
+.join_img{
+	width: .5rem;
+}
+.plus_img,.put_img{
+	width: .48rem;
+}
+.multi_img{
+	width: .46rem;
+}
+.trans_img,.out_img{
+	width:.42rem
+}
+.share_img,.earn_img{
+	width: .4rem;
+}
+.white_deright{
+	display: inline-block;
+	width: .2rem;
+	height: .2rem;
+	border-top: 2px solid #fff;
+	margin-top: .1rem;
+	border-right: 2px solid #fff;
+	transform: rotate(45deg);
+	float: right;
+}
+.white_deleft{
+	display: inline-block;
+	width: .24rem;
+	height: .24rem;
+	border-top: 2px solid #fff;
+	margin-top: .1rem;
+	border-right: 2px solid #fff;
+	transform: rotate(-135deg);
+}
+.deleft{
+	display: inline-block;
+	width: .24rem;
+	height: .24rem;
+	border-top: 2px solid #262626;
+	margin-top: .1rem;
+	border-right: 2px solid #262626;
+	transform: rotate(-135deg);
+}
+.deright {
+	display: inline-block;
+	width: .2rem;
+	height: .2rem;
+	border-top: 2px solid #909090;
+	margin-top: .1rem;
+	border-right: 2px solid #909090;
+	transform: rotate(45deg);
+	float: right;
+}
+/* 加盟会员 */
+.join_box{
+	width: 92%;
+	margin: .3rem auto 0;
+}
+.join_list>li{
+	padding: .25rem .5rem .25rem .25rem;
+	box-shadow:0px 3px 16px 0px rgba(4,163,254,0.16);
+	border-radius:4px;
+	margin-bottom: .26rem;
+}
+.join_list>.focus{
+	background-image:linear-gradient(-9deg,rgba(4,163,254,1),rgba(52,220,255,1));
+}
+.focus .member_cell,.focus .member_id,.focus .member_num{
+	color: #fff;
+}
+.focus .member_img{
+	border:1px solid #fff
+}
+.member_cell{
+	color:#262626;
+	font-size:.28rem;
+}
+.member_cell>div{
+	margin-left: .18rem;
+}
+.member_img{
+	width:.76rem;
+	border-radius:50%;
+	border:1px solid #04A3FE
+}
+.member_id,.member_num{
+	color:#999;
+	font-size:.24rem
+}
+/* 提现申请 */
+.withdraw_top{
+	background-image:linear-gradient(-45deg,rgba(4,163,254,1),rgba(52,220,255,1));
+	padding: .22rem 0 1rem;
+	color: #fff;
+}
+.withdraw_title{
+	font-size:.32rem;
+	text-align: center;
+}
+.back{
+	position: absolute;
+	left: .34rem;
+}
+.my_count{
+	margin-top: .6rem;
+}
+.count_title{
+	font-size:.28rem
+}
+.count_num{
+	font-size: .38rem;
+	font-weight:bold;
+	margin-top: .2rem;
+}
+.tips{
+	margin-top: .2em;
+	font-size: .24rem;
+}
+.oprate_box{
+	width: 92%;
+	margin: 0 auto;
+	padding-top: .22rem;
+}
+.oprate_box label{
+	display: block;
+	color: #04A3FE;
+	font-size: .28rem;
+	padding: .32rem 0 .28rem;
+}
+.oprate_box input,.oprate_box select{
+	font-size:.24rem;
+	padding: .22rem;
+	width: 100%;
+	background-color: rgb(247,247,247,1);
+	border-radius:4px;
+}
+.oprate_box .type_select{
+	background: rgb(247,247,247,1) url(../image/icon-bottom.png) no-repeat 97% center;
+	background-size: .38rem .22rem;
+}
+.oprate_box input::-webkit-input-placeholder {
+	color: #909090
+}
+
+.oprate_box input::-ms-input-placeholder {
+	color: #909090
+}
+
+.oprate_box input::-moz-placeholder {
+	color: #909090
+}
+.put_out{
+	display:block;
+	width: 100%;
+	color: #fff;
+	margin-top: .78rem;
+	padding: .2rem 0;
+	border:0;
+	font-size:.28rem;
+	background-image:linear-gradient(-9deg,rgba(52,220,255,1),rgba(4,163,254,1));
+	border-radius:4px;
+}
+/* 我的奖金 */
+.bonus_content{
+	width: 92%;
+	margin: .32rem auto 0;
+}
+.bonus_cell{
+	background-image:linear-gradient(-45deg,rgba(4,163,254,1),rgba(52,220,255,1));
+	border-radius:4px;
+	padding: .46rem 0 .32rem;
+	color: #fff;
+}
+.bonus_title{
+	font-size: .24rem;
+	margin-bottom: .2rem;
+}
+.bottom_title{
+	font-size: .24rem;
+	margin-bottom: .1rem;
+}
+.bonus_num{
+	font-size: .38rem;
+	font-weight: 600;
+	margin-bottom: .76rem;
+}
+.bonus_bottom>div{
+	flex:1;
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	text-align: center;
+}
+.bonus_bottom>div:nth-child(1){
+	position: relative;
+}
+.bonus_bottom>div:nth-child(1):before{
+	content: '';
+	width:1px;
+	height: .52rem;
+	background-color: #fff;
+	position: absolute;
+	right:0;
+	top:1vh
+}
+.bonus_detail{
+	margin-top:.32rem;
+	box-shadow:0px 3px 16px 0px rgba(4,163,254,0.16);
+	border-radius: 4px;
+	padding:.12rem .22rem .36rem;
+}
+.detail_list>li{
+	border-bottom:1px solid #e6e6e6;
+	padding: .32rem 0;
+	font-size:.28rem;
+	color:#909090;
+}
+.trans_box{
+	margin-top: .46rem;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.trans_out{
+	font-size:0.28rem;
+	color:#fff;
+	border: 0;
+	padding: .1rem .3rem;
+	background-image:linear-gradient(-45deg,rgba(4,163,254,1),rgba(52,220,255,1));
+	border-radius:4px;
+}
+/* 商城订单 */
+.myorder_list{
+	box-shadow:0px 6px 6px 0px rgba(4,163,254,0.12);
+}
+.myorder_list>li{
+	flex:1;
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	text-align: center;
+	font-size:.28rem
+}
+.myorder_list a{
+	display: block;
+	width: 1.5rem;
+	height: .78rem;
+	line-height: .78rem;
+	margin: 0 auto;
+}
+.myorder_list .addline{
+	color: #04A3FE;
+	border-bottom:3px solid #04A3FE;
+}
+.order_content{
+	width: 92%;
+	margin: .3rem auto 0;
+}
+.order_cell{
+	color:#262626;
+	font-size:.28rem;
+	padding: .13rem .26rem .13rem .15rem;
+	border:1px solid #e6e6e6;
+}
+.pro_img{
+	width:1.65rem
+}
+.pro_left{
+	margin-left: .3rem;
+}
+.serial_price{
+	color: #F5280C;
+	margin-top: .52rem;
+}
+.pro_num{
+	color:#909090;
+	margin-top: .85rem;
+}
+/* 分享 */
+.code_box{
+	padding: .76rem 0;
+	justify-content: center;
+	-webkit-justify-content: center
+}
+.code>canvas{
+	width: 3.45rem;
+	padding: .2rem;
+}
+.share_devide{
+	height:.16rem;
+	background-color: #f7f7f7;
+}
+.promo{
+	padding: .4rem 0 0 .36rem;
+	font-size: .28rem;
+	color:#808080;
+}
+.promo_text{
+	color:#04A3FE
+}
+.promo_link{
+	margin-top: .54rem;
+	margin-bottom: .23rem;
+	
+}
+/* 底部 */
+.footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #e6e6e6;
+	z-index: 999;
+}
+.footer>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	line-height: 1.5rem;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #909090;
+	outline: none;
+	text-decoration: none;
+}
+.footer .active {
+	color: #04A3FE
+}
+
+.foot-1 {
+	background: url(../image/icon-home.png) no-repeat center 20%;
+	background-size: 0.53rem 0.48rem;
+}
+
+.foot-2 {
+	background: url(../image/icon-ingtal.png) no-repeat center 20%;
+	background-size: 0.50rem 0.48rem;
+}
+
+.foot-4 {
+	background: url(../image/icon-order.png) no-repeat center 20%;
+	background-size: 0.42rem 0.48rem;
+}
+
+.foot-5 {
+	background: url(../image/icon-my.png) no-repeat center 20%;
+	background-size: 0.44rem 0.48rem;
+}
+
+.footer .foot-1.active {
+	background-image: url('../image/home-1.png');
+}
+
+.footer .foot-2.active {
+	background-image: url('../image/shop-1.png');
+}
+
+.footer .foot-4.active {
+	background-image: url('../image/bao-1.png');
+}
+
+.footer .foot-5.active {
+	background-image: url('../image/person-1.png');
+}
